@@ -126,6 +126,7 @@ int main()
 			if(fabs(b[i]-c[i])!=0)
 			printf("Wrong at i = %d, the fabs(b[i]-c[i]) = %f\n", i, fabs(b[i]-c[i]));
 		}
+		printf("When N = %d\n",N);
 		printf("Matrix time vector : %f\n",T1);
 		printf("Matrix time vector (parallel) : %f\n",T2);
 		free(b);
